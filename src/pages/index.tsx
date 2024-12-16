@@ -1,13 +1,5 @@
-import { CustomerForm } from '../components/CustomerForm';
-import { GlulamSpecs } from '../components/GlulamSpecs';
+import { RfqForm } from '../components/RfqForm';
 
 export default function Home() {
-  return (
-    <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="space-y-8">
-        <CustomerForm />
-        <GlulamSpecs />
-      </div>
-    </div>
-  );
+  return <RfqForm />;
 }
